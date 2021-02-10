@@ -1,7 +1,7 @@
 # BlazeBot configuration file (required to run)
 
 # Discord App token
-bbtoken = "" # REMOVE TOKEN BEFORE SYNC!! -Blaze
+bbtoken = "ODA4ODI1ODk5MzU2Mzg5NDE2.YCML0Q.VCgAJDDerd9RgY0HUfl6Vo7nCf4" # REMOVE TOKEN BEFORE SYNC!! -Blaze
 
 # YouTube API key (https://console.developers.google.com/apis/credentials/key)
 key = "" # REMOVE KEY BEFORE SYNC!! -Blaze
@@ -10,8 +10,8 @@ key = "" # REMOVE KEY BEFORE SYNC!! -Blaze
 # This specifies what extensions to load when the bot starts up (leave empty for no extensions)
 startup_extensions = []
 
-logfile = 'discord.log' # Name of the file to log to (eg. 'discord.log')
-pref = "//" # Command prefix
+logfile = 'bubini.log' # Name of the file to log to (eg. 'discord.log')
+pref = "+" # Command prefix
 des = "iCrazyBlaze's Discord.py Bot" # Description shown on using the help command
 
 # Error messages

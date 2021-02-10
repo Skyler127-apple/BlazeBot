@@ -272,7 +272,7 @@ async def urban(ctx, *msg):
     try:
         word = ' '.join(msg)
         api = "http://api.urbandictionary.com/v0/define"
-		logger.info("Making request to " + api)
+        logger.info("Making request to " + api)
         # Send request to the Urban Dictionary API and grab info
         response = requests.get(api, params=[("term", word)]).json()
         embed = discord.Embed(description="No results found!", colour=0xFF0000)
